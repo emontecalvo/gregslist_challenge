@@ -1,0 +1,127 @@
+body {
+  font-family: sans-serif;
+}
+
+/*   ***********************navigation bar*/
+
+h1 {
+  font-size: 20px;
+  font-weight: normal;
+}
+
+nav {
+  margin-bottom: 30px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; 
+    background-color: lightgray;
+    padding-left: 30px;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+    display: block;
+    color: purple;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.right_nav1 {
+  padding-left: 70%;
+}
+
+nav li a:hover {
+    background-color: #111;
+}
+
+/* ******************************end of nav bar*/
+
+
+/*    ****************job SEARCH section*/
+
+.buttons {
+  display: inline-block;
+  border-right: 1px solid #e0e0e0;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.fa-star {
+  color: gray;
+}
+
+input {
+  width: 50%;
+  font-size: 15px;
+}
+
+.search {
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+.wrapper {
+  border: 1px solid lightgray;
+  border-radius: 10%;
+}
+
+
+/*     **************end of job SEARCH sect.*/
+
+
+/*  *******************job LIST section*/
+
+.page_bar {
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+ul {
+  list-style: none;
+}
+
+.job_list {
+  color: lightgray;
+}
+
+.job_list a:link {
+  color: blue;
+  font-weight: bold;
+}
+
+.job_list a:hover {
+  color: yellow;
+}
+
+.job_list a:visited {
+  color: blue;
+}
+
+.job_list a:active {
+  color: blue;
+}
+
+.fa-star:hover {
+  color: yellow;
+}
+
+.job_list i {
+  margin-right: 10px;
+}
+
+.job_list a {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+
+/*    *****************end of job LIST sect.*/
+
