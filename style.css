@@ -1,7 +1,18 @@
+/** {
+  margin: 0;
+  padding: 0;
+}*/
+
 body {
   font-family: sans-serif;
 }
-
+main {
+  width: 80%;
+  margin: 0 auto;
+}
+button {
+  cursor: pointer;
+}
 /*   ***********************navigation bar*/
 
 h1 {
@@ -64,9 +75,19 @@ input {
 }
 
 .search {
-  margin-left: 30px;
   margin-bottom: 30px;
 }
+
+.search button, .search input {
+  line-height: 32px;
+  vertical-align: middle;
+  padding: 0;
+  background-color: #fff;
+  border: 1px solid lightgray;
+  margin-right: 2px;
+  padding: 0 8px;
+  border-radius: 4px;
+} 
 
 .wrapper {
   border: 1px solid lightgray;
@@ -76,7 +97,39 @@ input {
 
 /*     **************end of job SEARCH sect.*/
 
+/*  ******************* new pagination */
+.pagination {
+  font-size: 0;
+  line-height: 26px;
 
+}
+.pagination div {
+  font-size: 15px;
+  width: 200px;
+  border: 1px solid lightgray;
+  display: inline-block;
+  text-align: center;
+
+}
+.prev, .next {
+  display: block;
+  font-size: 15px;
+  width: 70px;
+  border: 1px solid lightgray;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+}
+
+.prev {
+  border-right: none;
+  border-radius: 4px 0 0 4px;
+}
+
+.next {
+  border-left: none;
+  border-radius: 0px 4px 4px 0px;
+}
 /*  *******************job LIST section*/
 
 .page_bar {
@@ -90,6 +143,9 @@ ul {
 
 .job_list {
   color: lightgray;
+}
+.job_list ul {
+  padding-left: 0;
 }
 
 .job_list a:link {
@@ -120,6 +176,10 @@ ul {
 .job_list a {
   margin-right: 10px;
   margin-left: 10px;
+}
+
+.job_list li {
+  margin-bottom: 15px;
 }
 
 
